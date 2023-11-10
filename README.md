@@ -29,4 +29,3 @@ As always include a makefile with a run and compile target.
     
 After running your program I will use the kill command to send signals to your program.
 
-Please test your programs on a clean clone of your repo. The number of mistakes due to this last time was astoundingly high.
