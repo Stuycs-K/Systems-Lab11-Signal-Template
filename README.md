@@ -16,9 +16,8 @@ SIGINT
 
 * Before exiting, do two things:
     
-* Print to stdout "Process with PID: XXX Exiting due to SIGINT" replacing XXX with the actual process id.
-    
-* Append the above message to a file output.txt
+  1. Print to stdout "Process with PID: XXX Exiting due to SIGINT" replacing XXX with the actual process id.
+  2. Append the above message to a file output.txt
 
 SIGUSR1 
 
