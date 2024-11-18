@@ -19,13 +19,14 @@ SIGINT
   1. Print to stdout "Process with PID: XXX Exiting due to SIGINT" replacing XXX with the actual process id.
   2. Append the above message to a file output.txt
 
-SIGUSR1 
+SIGQUIT 
 
-* Print out the PID and Parent PID in the format: "PPID: XXX , PID: YYY" replacing XXX and YYY with the correct ID values. DO NOT cause the program to exit.
+* Print out the PID and Parent PID in the format: "PPID: XXX , PID: YYY" replacing XXX and YYY with the correct ID values.
+* DO NOT cause the program to exit.
     
 ## Running the program and testing:
 
-As always include a makefile with a run and compile target.
+Include a makefile with a run and compile target.
     
-After running your program I will use the kill command to send signals to your program.
+After running your program I will use the kill command (or keyboard shortcuts) to send signals to your program.
 
