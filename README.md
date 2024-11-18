@@ -6,7 +6,7 @@ Write a C program with the following features:
 
 * Runs constantly inside a forever while loop.
     
-* Print out the process' PID inside the loop.
+* Print out the process' PID inside the loop. "PID is : XXXXX"
     
 * Use the sleep(1) function to have the program wait 1 second between inner loop iterations.
     
